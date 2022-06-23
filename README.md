@@ -36,7 +36,7 @@
 |-----------------|----------------------|--------------|
 |GET ALL CHILD DATA |GET| /user/child/|
 |CREATE CHILD DATA|POST|/user/parent/{pk}/child/|
-|RETRIEVE/MODIFY INDIVIDUAL PARENT DATA|GET, PUT, PATCH, DELETE|/user/child/{id}|
+|RETRIEVE/MODIFY INDIVIDUAL CHILD DATA|GET, PUT, PATCH, DELETE|/user/child/{id}|
 #### Repsitory Structure
 
 ```

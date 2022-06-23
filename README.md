@@ -1,4 +1,3 @@
-
 ## Language
 
 - Python v3.10.4
@@ -128,7 +127,7 @@
   python manage.py runserver
 ```
 ## Step 8 - Testing the App
-- Start the application by typing the following command
+- Test the application for models and API routes by typing the following command
 ```bash
   python manage.py test
 ```

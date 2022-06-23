@@ -13,40 +13,30 @@
 - SQLite
 
 
-
-
-
 ## API Reference
-
 #### Authentication
 
-```http
-  REGISTER FOR AN ACCOUNT            POST                /account/register
-  LOGIN WITH AN ACCOUNT              POST                /account/login
-  LOGOUT FROM AN ACCOUNT             GET                 /account/logout
-```
+|ACTIONS|HTTP METHODS|ENDPOINTS|
+|-----------------|---|--------------|
+|REGISTER FOR AN ACCOUNT|POST|/account/register/|
+|LOGIN WITH AN ACCOUNT| POST |/account/login/|
+|LOGOUT FROM AN ACCOUNT|GET|/account/logout/|
+
 #### CRUD Parent Data
 
-```http
-   GET ALL PARENT DATA               GET                  /user/parent
-   CREATE PARENT DATA                POST                 /user/parent
-
-
-   RETRIEVE/MODIFY                   GET,
-   INDIVIDUAL                     PUT,PATCH,              /user/parent/${pk}
-   PARENT DATA                      DELETE
-```
+|ACTIONS|HTTP METHODS|ENDPOINTS|
+|-----------------|----------------------|--------------|
+|GET ALL PARENT DATA |GET| /user/parent/|
+|CREATE PARENT DATA|POST|/user/parent/|
+|RETRIEVE/MODIFY INDIVIDUAL PARENT DATA|GET, PUT, PATCH, DELETE|/user/parent/{pk}|
 
 #### CRUD Child Data
 
-```http
-   GET ALL CHILD DATA                 GET                 /user/child
-   CREATE CHILD DATA                  POST                /user/parent/${pk}/child/
-
-   RETRIEVE/MODIFY                   GET,
-   INDIVIDUAL                     PUT,PATCH,              /user/child/${id}
-   CHILD DATA                       DELETE
-```
+|ACTIONS|HTTP METHODS|ENDPOINTS|
+|-----------------|----------------------|--------------|
+|GET ALL CHILD DATA |GET| /user/child/|
+|CREATE CHILD DATA|POST|/user/parent/{pk}/child/|
+|RETRIEVE/MODIFY INDIVIDUAL PARENT DATA|GET, PUT, PATCH, DELETE|/user/child/{id}|
 #### Repsitory Structure
 
 ```

@@ -1,3 +1,4 @@
+
 ## Language
 
 - Python v3.10.4
@@ -36,6 +37,11 @@
 |GET ALL CHILD DATA |GET| /user/child/|
 |CREATE CHILD DATA|POST|/user/parent/{pk}/child/|
 |RETRIEVE/MODIFY INDIVIDUAL CHILD DATA|GET, PUT, PATCH, DELETE|/user/child/{id}|
+
+
+  [Documentation](https://www.dropbox.com/s/5gw45o6n8xaadav/data_store_app_documentation.pdf?dl=0)
+
+
 #### Repsitory Structure
 
 ```

@@ -9,7 +9,6 @@ from datastore_app.mixins import AppAuthPermMixin
 # AND PERMISSION CLASSES VIA
 # AppAuthPermMixin
 
-
 class ParentListCreateAPIView(AppAuthPermMixin, generics.ListCreateAPIView):
     '''Lists collection of data, creates data'''
     queryset = ParentData.objects.all()
@@ -25,7 +24,6 @@ class ParentRetrieveUpdateDestroyAPIView(
     serializer_class = ParentDataSerializer
     lookup_field = 'pk'
 
-
 class ChildRetrieveUpdateDestroyAPIView(
         AppAuthPermMixin,
         generics.RetrieveUpdateDestroyAPIView):
@@ -33,7 +31,6 @@ class ChildRetrieveUpdateDestroyAPIView(
     queryset = ChildData.objects.all()
     serializer_class = ChildDataSerializer
     lookup_field = 'id'
-
 
 class ChildListAPIView(AppAuthPermMixin, generics.ListAPIView):
     '''Lists collection of child data'''

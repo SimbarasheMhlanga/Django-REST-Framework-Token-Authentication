@@ -8,7 +8,6 @@ from rest_framework import status, generics
 from user_app.api.serializers import RegSerializer
 from user_app import models
 
-
 class LogoutAPIView(generics.GenericAPIView):
     '''Logs out user or deletes token'''
     authentication_classes = [TokenAuthentication]

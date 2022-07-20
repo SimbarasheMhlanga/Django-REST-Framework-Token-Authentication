@@ -6,7 +6,6 @@ from crudoperations_app.api.views import (
     ChildListAPIView,
     ChildRetrieveUpdateDestroyAPIView)
 
-
 urlpatterns = [
     path(
         'parent/',
@@ -28,6 +27,6 @@ urlpatterns = [
     path(
         'child/<int:id>/',
         ChildRetrieveUpdateDestroyAPIView.as_view(),
-        name='child-detail'),
-    
+        name='child-detail'), 
+        
 ]

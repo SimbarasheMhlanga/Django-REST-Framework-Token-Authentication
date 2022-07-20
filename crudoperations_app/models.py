@@ -1,6 +1,5 @@
 from django.db import models
 
-
 class ParentData(models.Model):
     fathersname = models.CharField(max_length=30)
     mothersname = models.CharField(max_length=30)

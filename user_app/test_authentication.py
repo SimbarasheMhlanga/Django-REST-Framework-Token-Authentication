@@ -4,7 +4,6 @@ from rest_framework import status
 from rest_framework.test import APITestCase
 from rest_framework.authtoken.models import Token
 
-
 class RegTestCase(APITestCase):
     def setUp(self):
         self.user = User.objects.create_user(

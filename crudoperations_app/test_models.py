@@ -1,7 +1,6 @@
 from django.test import TestCase
 from crudoperations_app import models
 
-
 class ParentModelTestCase(TestCase):
 
     def setUp(self):

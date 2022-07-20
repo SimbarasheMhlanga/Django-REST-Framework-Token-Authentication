@@ -7,7 +7,6 @@ from rest_framework.authtoken.models import Token
 
 from crudoperations_app import models
 
-
 class ChildAPITestCases(APITestCase):
 
     def setUp(self):

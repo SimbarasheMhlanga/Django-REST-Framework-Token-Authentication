@@ -5,7 +5,6 @@ from getpass import getpass
 import pprint
 import requests
 
-
 ENDPOINT_USER_PARENT = "http://localhost:8000/user/parent/"
 ENDPOINT_LOGIN = "http://localhost:8000/account/login/"
 ENDPOINT_REGISTRATION = "http://localhost:8000/account/register/"

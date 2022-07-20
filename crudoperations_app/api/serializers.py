@@ -2,7 +2,6 @@
 from rest_framework import serializers
 from crudoperations_app.models import ParentData, ChildData
 
-
 class ChildDataSerializer(serializers.ModelSerializer):
 
     class Meta:

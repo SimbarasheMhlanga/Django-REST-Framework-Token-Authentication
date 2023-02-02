@@ -1,1 +1,1 @@
-![testing](https://github.com/SimbarasheMhlanga/russianscholarshipprogram/actions/workflows/django.yml/badge.svg?branch=master)
+![testing](https://github.com/SimbarasheMhlanga/Django-REST-Framework-Token-Authentication/actions/workflows/django.yml/badge.svg?branch=master)
